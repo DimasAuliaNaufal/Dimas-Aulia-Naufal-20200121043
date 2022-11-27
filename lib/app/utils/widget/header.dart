@@ -13,7 +13,7 @@ class header extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SizedBox(
-    height: Get.height* 0.1,
+    height: Get.height* 0.12,
     child: Padding(
       padding: const EdgeInsets.only(left: 40, right: 40, top: 25),
       child: Row(
@@ -52,7 +52,7 @@ class header extends StatelessWidget {
               width: 20,
             ),
             const Icon(
-              Ionicons.notifications, color: AppColors.primaryText, size: 30,),
+              Icons.notifications, color: AppColors.primaryText, size: 30,),
             const SizedBox(
               width: 20,
             ),
@@ -73,7 +73,7 @@ class header extends StatelessWidget {
                    ),
                    SizedBox(width: 5,
               ),
-               Icon(Ionicons.log_out_outline,
+               Icon(Icons.logout_outlined,
                color: AppColors.primaryText,
                size: 30,
                ),

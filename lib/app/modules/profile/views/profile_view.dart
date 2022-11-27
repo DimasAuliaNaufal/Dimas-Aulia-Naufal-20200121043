@@ -81,7 +81,7 @@ final GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
                    ),
                    SizedBox(width: 5,
               ),
-               Icon(Ionicons.log_out_outline,
+               Icon(Icons.logout_outlined,
                color: AppColors.primaryText,
                size: 30,
                ),

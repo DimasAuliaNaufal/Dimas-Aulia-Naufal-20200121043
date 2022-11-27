@@ -49,8 +49,8 @@ class SideBar extends StatelessWidget {
               : const BoxDecoration(),
             child: Icon(
                Get.currentRoute == '/home' 
-               ? Ionicons.desktop
-               : Ionicons.desktop_outline, 
+               ? Icons.desktop_windows
+               : Icons.desktop_windows_outlined, 
             color: AppColors.primaryText, 
             size: 30,),
           ),
@@ -84,8 +84,8 @@ class SideBar extends StatelessWidget {
               : const BoxDecoration(),
             child: Icon(
                Get.currentRoute == '/task' 
-               ? Ionicons.cube 
-               : Ionicons.cube_outline, 
+               ? Icons.task 
+               : Icons.task_alt_outlined, 
             color: AppColors.primaryText, 
             size: 30,),
           ),
@@ -119,8 +119,8 @@ class SideBar extends StatelessWidget {
               : const BoxDecoration(),
             child: Icon(
                Get.currentRoute == '/friends' 
-               ? Ionicons.heart_circle
-               : Ionicons.heart_circle_outline , 
+               ? Icons.heart_broken_sharp
+               : Icons.heart_broken_outlined , 
             color: AppColors.primaryText, 
             size: 30,),
           ),
@@ -154,8 +154,8 @@ class SideBar extends StatelessWidget {
               : const BoxDecoration(),
             child: Icon(
                Get.currentRoute == '/profile' 
-               ? Ionicons.desktop 
-               : Ionicons.desktop_outline, 
+               ? Icons.person
+               : Icons.person_outline, 
             color: AppColors.primaryText, 
             size: 30,),
           ),

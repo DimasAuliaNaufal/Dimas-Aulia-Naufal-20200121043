@@ -71,7 +71,7 @@ final GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
                       ),
                       const Spacer(),
                       const Icon(
-                      Ionicons.notifications,
+                      Icons.notifications,
                        color: AppColors.primaryText,
                         size: 30,
                         ),
@@ -108,7 +108,7 @@ final GlobalKey<ScaffoldState> _drawerKey = GlobalKey();
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(
-                        height: Get.height * 0.35,
+                        height: Get.height * 0.38,
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: const [ 
